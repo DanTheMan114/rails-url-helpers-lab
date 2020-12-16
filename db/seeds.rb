@@ -5,3 +5,10 @@
 #
 #   cities = City.create([{ name: 'Chicago' }, { name: 'Copenhagen' }])
 #   Mayor.create(name: 'Emanuel', city: cities.first)
+
+
+# class AddActiveColumnToStudents < ActiveRecord::Migration
+#     def change
+#       add_column :students, :active, :boolean, default: false
+#     end
+#   end
